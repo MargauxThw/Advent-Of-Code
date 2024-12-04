@@ -12,7 +12,6 @@ for line in lines:
 list_1.sort()
 list_2.sort()
 
-
 total = 0
 for i in range(len(list_1)):
     dist = list_1[i] - list_2[i]
