@@ -8,7 +8,7 @@ def get_cost(turn):
     xB, yB = turn[1][0], turn[1][1]
     xA, yA = turn[0][0], turn[0][1]
     
-    i, j = symbols('i j')
+    i, j = symbols('i,j')
     
     eq1 = Eq(xB * i + xA * j, xP)
     eq2 = Eq(yB * i + yA * j, yP)
