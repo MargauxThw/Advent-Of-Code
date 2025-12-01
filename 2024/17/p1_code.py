@@ -5,6 +5,7 @@ regs = [int(r.split(" ")[2]) for r in text[:3]]
 ops = [int(r) for r in text[4].split(" ")[1].split(",")]
 output = []
 
+regs[0] = 281474976710656
 def get_combo(operand):
     if operand > 3:
         return regs[operand - 4]
